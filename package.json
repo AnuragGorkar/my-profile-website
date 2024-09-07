@@ -33,8 +33,5 @@
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.6"
   }
-  "scripts": {
-    "build": "next build || true"
-  }
 
 }
