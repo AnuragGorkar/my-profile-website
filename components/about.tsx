@@ -24,7 +24,7 @@ export default function About() {
         working as a data scientist for 2 years. I am currently a <b>MCS student @ NCSU</b>.       
          My core stack is{" "}
         <span className="font-medium">
-          LLM's, ML/DL, Python, Andriod and React.js
+          LLM&apos;s, ML/DL, Python, Andriod and React.js
         </span>
         I am always looking to
         learn new technologies. I am currently looking for a{" "}
@@ -32,7 +32,7 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I&apos;m not coding</span>, I enjoy playing
         video games, watching movies, and swimming. I also enjoy{" "}
         <span className="font-medium">learning new things</span>.
       </p>

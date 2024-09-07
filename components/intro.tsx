@@ -67,7 +67,7 @@ export default function Intro() {
         <span>
           Hello, this is <b>Anurag Gorkar</b>.<br />
         </span>
-        <span>I'm a </span>
+        <span>I&apos;m a </span>
         <span className="font-bold">
           <Typewriter
             words={[
