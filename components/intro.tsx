@@ -115,7 +115,7 @@ export default function Intro() {
           <IoOpenOutline className="opacity-60 group-hover:translate-y transition" />
         </a>
 
-        <a
+        {/* <a
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/anurag-gorkar/"
           target="_blank"
@@ -131,7 +131,34 @@ export default function Intro() {
           style={{ fontSize: "1.75rem", padding: "0.75rem" }} // Increased size and padding
         >
           <FaGithubSquare style={{ fontSize: "1.8rem" }} />
-        </a>
+        </a> */}
+
+<a
+  className="bg-white p-4 text-[#0077b5] dark:text-[#00a0dc] hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+  href="https://www.linkedin.com/in/anurag-gorkar/"
+  target="_blank"
+  style={{ fontSize: "1.75rem", padding: "0.75rem" }}
+>
+  <BsLinkedin
+    style={{
+      fontSize: "1.55rem",
+    }}
+  />
+</a>
+
+<a
+  className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+  href="https://github.com/AnuragGorkar"
+  target="_blank"
+  style={{ fontSize: "1.75rem", padding: "0.75rem" }}
+>
+  <FaGithubSquare
+    style={{
+      fontSize: "1.8rem", // Same font size for GitHub logo
+    }}
+  />
+</a>
+
       </motion.div>
     </section>
   );
