@@ -35,7 +35,7 @@ export default function Skills() {
         <div key={categoryIndex} className="mb-8">
           {/* Category Name */}
           <motion.h3
-            className="mb-4 text-2xl text-center font-extralight text-gray-500 dark:text-white"
+            className="mb-4 text-l text-center font-extralight text-gray-500 dark:text-white"
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate"
@@ -48,7 +48,7 @@ export default function Skills() {
           </motion.h3>
 
           {/* Skills List */}
-          <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+          <ul className="flex flex-wrap justify-center gap-2 text-l text-gray-800">
             {categoryData.skills.map((skill, skillIndex) => (
               <motion.li
                 className="bg-white borderBlack rounded-xl px-3 py-[0.2rem] font-size: 0.95rem line-height: 1.25rem dark:bg-white/10 dark:text-white/80"
@@ -59,7 +59,7 @@ export default function Skills() {
                 viewport={{
                   once: true,
                 }}
-                custom={categoryIndex * 2.5 + skillIndex} // Delay based on category and skill index
+                custom={categoryIndex * 1.75 + skillIndex} // Delay based on category and skill index
               >
                 {skill}
               </motion.li>
