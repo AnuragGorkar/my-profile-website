@@ -12,9 +12,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Anurag Gorkar Portfolio",
   description: "Anurag is a MCS Student @NCSU with 2 years of experience as a data scientist",
-  icons: {
-    icon: "/tabimage.png",  // Path to your image in the public folder
-  },
 };
 
 export default function RootLayout({
