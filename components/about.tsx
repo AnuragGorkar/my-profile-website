@@ -28,7 +28,7 @@ export default function About() {
         </span>
         I am always looking to
         learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a SDE or data scientist.
+        <span className="font-medium">internship opportunities</span> as a SDE or data scientist.
       </p>
 
       <p>
