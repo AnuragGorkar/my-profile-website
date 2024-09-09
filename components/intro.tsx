@@ -4,7 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { BsArrow90DegDown, BsArrowDown, BsArrowDownCircle, BsArrowDownLeft, BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { IoOpenOutline } from "react-icons/io5";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
@@ -103,7 +103,7 @@ export default function Intro() {
           }}
         >
           Contact me here{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowDown className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
 
         <a
@@ -115,7 +115,7 @@ export default function Intro() {
           <IoOpenOutline className="opacity-60 group-hover:translate-y transition" />
         </a>
 
-        <div className="flex justify-center gap-2 mb-[0.75rem]">
+        <div className="flex justify-center gap-4">
           <a
             className="bg-white p-4 text-[#0077b5] dark:text-[#00a0dc] hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 "
             href="https://www.linkedin.com/in/anurag-gorkar/"
