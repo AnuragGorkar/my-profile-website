@@ -5,6 +5,7 @@ import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { FaCode } from "react-icons/fa6"; // Import GitHub icon
+import { IoOpenOutline } from "react-icons/io5";
 import { BsCode, BsYoutube } from "react-icons/bs"; // Import Code and YouTube icons
 
 type ProjectProps = (typeof projectsData)[number];
@@ -16,6 +17,7 @@ export default function Project({
   imageUrl,
   videoLink,
   codeLink,
+  siteLink
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -61,7 +63,19 @@ export default function Project({
             >
               <FaCode style={{ fontSize: "1.2rem" }} /> {/* Smaller icon */}
             </a>
+
+            {siteLink && (
+            <a
+              className="bg-white p-[0.45rem] text-gray-700 flex items-center justify-center rounded-full focus:scale-[1.1] hover:scale-[1.1] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack"
+              href={siteLink}
+              target="_blank"
+              style={{ fontSize: "1rem" }} // Smaller font size
+            >
+              <IoOpenOutline style={{ fontSize: "1.2rem" }} /> {/* Smaller icon */}
+            </a>)}
           </div>
+
+
 
           {/* Tags Section */}
           <ul className="flex flex-wrap gap-2 sm:mt-auto">

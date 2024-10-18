@@ -6,6 +6,7 @@ import { TbShieldCode, TbUserCode, TbWorldCode } from "react-icons/tb";
 import covicareImg from "@/public/covicare_project.png";
 import sosaccidentImg from "@/public/sos_accident_project.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import paintAIImg from "@/public/paintai_project.png";
 
 export const links = [
   {
@@ -63,13 +64,24 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "PaintAI",
+    description:
+      "Sketch math equations or problems and get instant solutions from Google's Gemini AI, making math engaging and fun.",
+    tags: ["Gen AI", "Prompt Engg.", "React", "TypeScript", "Python"],
+    imageUrl: paintAIImg,
+    videoLink: "https://youtu.be/i2jk-ToLiy8",
+    codeLink: "https://github.com/AnuragGorkar/PaintAI",
+    siteLink: "https://adgorkar-paintai.netlify.app/"
+  },
+  {
     title: "CoviCare",
     description:
       "A smart device and mobile app to record vitals, uses DL models for analyzing CT scans for Covid-19 diagnosis.",
     tags: ["Flutter", "IoT", "TensorFLow", "SQLite", "Java"],
     imageUrl: covicareImg,
     videoLink: "https://youtu.be/qxpOh35byF8?feature=shared",
-  codeLink: "https://github.com/AnuragGorkar/CoviCareApp"
+  codeLink: "https://github.com/AnuragGorkar/CoviCareApp",
+  siteLink: ""
   },
   {
     title: "SoS: Alarm System",
@@ -78,7 +90,8 @@ export const projectsData = [
     tags: ["Python", "Android", "React", "IoT", "Firestore"],
     imageUrl: sosaccidentImg,
     videoLink: "https://youtu.be/Ud3XzzwmJhU?feature=shared",
-  codeLink: "https://github.com/AnuragGorkar/SOS-Car-Accident-Care-System-"
+  codeLink: "https://github.com/AnuragGorkar/SOS-Car-Accident-Care-System-",
+  siteLink: ""
   }
 ] as const;
 
