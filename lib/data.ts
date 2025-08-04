@@ -37,12 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "RA | Full Stack Developer",
+    location: "NCSU, Raleigh USA",
+    description:
+      "Modernizing WebAPLUS tutoring system through microservices architecture, GPT-4 integration for AI-powered hints, and Redis caching implementation using Angular and Spring Boot",
+    icon: React.createElement(FaReact),
+    date: "Jun 2025 - Present",
+  },
+  {
+    title: "RA | Applied ML Researcher",
+    location: "NCSU, Raleigh USA",
+    description:
+      "Developed an end-to-end ML system for automated piano performance analysis, combining computer vision, signal processing, and LLM-powered feedback generation for real-time music education",
+    icon: React.createElement(LuGraduationCap),
+    date: "Jan 2025 - May 2025",
+  },
+  {
     title: "Data Scientist @ Bajaj Finserv",
     location: "Pune, India",
     description:
       "Developed and deployed ML/DL models for predicting loan acquisition propensity and mitigating risk in personal loans department",
     icon: React.createElement(TbUserCode),
-    date: "2022 - 2024",
+    date: "Jul 2022 - Jul 2024",
   },
   {
     title: "Software Intern @ ASAR",
@@ -50,7 +66,7 @@ export const experiencesData = [
     description:
       "Engineered an R and Google Earth Engine pipeline for minimum travel time maps, and conducted a health-center access analysis in Python and R.",
     icon: React.createElement(TbWorldCode),
-    date: "2021 - 2022",
+    date: "Jun 2021 - Feb 2022",
   },
   {
     title: "Research & Development Intern  @  DRDO",
@@ -58,7 +74,7 @@ export const experiencesData = [
     description:
       "Developed a TensorFlow deep learning framework for image steganography detection and created a React-Flask web interface for secure uploads and malicious payload analysis.",
     icon: React.createElement(TbShieldCode),
-    date: "2020",
+    date: "Jul 2020 - Sep 2020",
   },
 ] as const;
 
